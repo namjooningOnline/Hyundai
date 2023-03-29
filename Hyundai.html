@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H-100 Highlights</title>
+    <link rel="stylesheet" href="../day09/fontawesome-free-6.3.0-web/css/all.css">
+    <style>
+        @font-face {
+            font-family: "Hyundai";
+            src: url(../day09/static/Mulish-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: "Hyundai_bold";
+            src: url(../day09/static/Mulish-Bold.ttf);
+        }
+
+        body {
+            margin: 0;
+            font-family: "Hyundai";
+        }
+
+        #header_table {
+            width: 100%;
+            color: white;
+            font-size: x-small;
+            background: linear-gradient(grey, lightgrey);
+        }
+
+        #picture_text {
+            position: absolute;
+            top: 13%;
+            left: 12%;
+            z-index: 2;
+        }
+
+        .bold {
+            font-family: "Hyundai_bold";
+            font-size: x-large;
+        }
+
+        i {
+            /*these are are to make a space around icons*/
+            margin: 1px;
+        }
+
+        #nav {
+            font-size: x-small;
+        }
+
+        #nav_and_truck {
+            width: 100%;
+            background-image: url("../day09/background.jpeg");
+            background-size: cover;
+        }
+
+        .truck {
+            vertical-align: bottom;
+            max-width: 95%;
+            max-height: 95%;
+            margin-left: 20px;
+            margin-right: 30px;
+        }
+
+        #footer_table {
+            font-size: x-small;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="header_div">
+        <table id="header_table">
+            <tr style="height: 20px;"></tr>
+            <tr>
+                <td style="text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;<img style="width: 100px;"
+                        src="../day09/logo-wh.png" alt="Hyundai">
+                </td>
+                <td style="text-align: center;">Brand Journal &nbsp;&nbsp; Vehicles &nbsp;&nbsp; Company</td>
+                <td style="text-align: center;"><i class="fa-solid fa-globe"></i>&nbsp;KR&nbsp;<i
+                        class="fa-solid fa-magnifying-glass"></i></td>
+            </tr>
+        </table>
+    </div>
+    <div id="picture_text">
+        <div style="width: 90px; font-size: larger;"><span class="bold">H-100
+                Design</span></div>
+        <div style="font-size: x-small;">Well-refined design with stability</div>
+    </div>
+
+    <div id="nav_and_truck">
+        <div id="nav">
+            <table id="nav_tabe" style="width: 100%;">
+                <tr style="height: 50px; position: relative; left: 10%;">
+                    <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home&nbsp;<i
+                            class="fa-thin fa-greater-than"></i>&nbsp;Commercial&nbsp;<i
+                            class="fa-thin fa-greater-than"></i>&nbsp;H-100&nbsp;<i
+                            class="fa-thin fa-greater-than"></i>&nbsp;<span style="color: #00aad2">Highlights</span>
+                    </td>
+                    <td><i class="fa-solid fa-arrow-up-from-bracket"></i><strong>Page Sharing<strong></td>
+                </tr>
+            </table>
+        </div>
+        <div id="truck_pic_div">
+            <img class="truck" src="../day09/h100.jpeg" alt="H 100 truck">
+        </div>
+    </div>
+
+    <div id="footer_table">
+        <table style="width: 100%;">
+            <tr style="height: 25px; position: relative; left: 10%;">
+                <td style="text-align: center;">H-100</td>
+                <td style="text-align: center;">Highlights&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span style=" color:#00aad2">Design&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    Performance
+                </td>
+                <td><i class="fa-solid fa-download"></i> e-Brochure</td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+
+</html>
